@@ -14,7 +14,7 @@ const countriesCleanup = () => {
       topLevelDomain: country.topLevelDomain.map((domain) => domain),
       currencies: country.currencies
         ? country.currencies.map((currency) => currency.name)
-        : "no currency found",
+        : ["no currency found"],
       languague: country.languages.map((languague) => languague.name),
       borderCountries: country.borders
         ? country.borders.map(

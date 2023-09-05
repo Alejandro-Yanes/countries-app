@@ -16,9 +16,15 @@ export default {
       fontSize: {
         small: ["14px"],
         big: ["16px"],
+        "extra-big": ["22px"],
       },
       fontFamily: {
         "nunito-sans": "Nunito Sans, sans-serif",
+      },
+      container: {
+        padding: {
+          DEFAULT: "2rem",
+        },
       },
     },
   },

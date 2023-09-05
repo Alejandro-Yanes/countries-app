@@ -6,7 +6,7 @@ export type Country = {
   nativeName: string;
   subRegion: string;
   topLevelDomain: string[];
-  currencies: string[] | string;
+  currencies: string[];
   languague: string[];
   borderCountries: string[] | string;
   flag: string;
