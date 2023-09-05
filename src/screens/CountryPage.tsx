@@ -5,7 +5,7 @@ import { BiArrowBack } from "react-icons/bi";
 
 export interface Props {}
 
-const CountryPage: React.FunctionComponent<Props> = (props) => {
+const CountryPage: React.FunctionComponent<Props> = () => {
   let { name } = useParams();
   const country = countries.find((country) => country.name === name);
 

@@ -1,6 +1,6 @@
 import React from "react";
-import type { Country } from "../types/country";
 import { Link } from "react-router-dom";
+import type { Country } from "../types/country";
 
 export interface Props {
   country: Country;

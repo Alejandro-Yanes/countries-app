@@ -8,7 +8,7 @@ import { getAllRegions } from "../helpers/getAllRegions";
 import type { Country } from "../types/country";
 
 function CountriesPage() {
-  const [countries, setCountries] = useState<Country[]>(countriesData);
+  const [countries] = useState<Country[]>(countriesData);
   const [search, setSearch] = useState<string>("");
   const [searchType] = useState<string[]>(["capital", "name"]);
   const [showFilter, setShowFilter] = useState<{

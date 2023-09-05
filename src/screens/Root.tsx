@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 export interface Props {}
 
-const Root: React.FunctionComponent<Props> = (props) => {
+const Root: React.FunctionComponent<Props> = () => {
   const [theme, setTheme] = useState<string>("light");
   useEffect(() => {
     const darkModeOn = window.matchMedia(
